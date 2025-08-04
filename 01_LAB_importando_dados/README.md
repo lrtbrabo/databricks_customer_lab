@@ -37,7 +37,7 @@ Escolha a opção "Create or Modify Table":
 <img src="https://raw.githubusercontent.com/lrtbrabo/databricks_customer_lab/main/images/lab1_03.png" width="700px">
 
 </br></br></br>
-Selecione o nome do Catálogo  (ACADEMY), o nome do SCHEMA (GENIE_AIBI) e um nome pra nova tabela:
+Selecione o nome do Catálogo "dbx_workshop", o nome do SCHEMA "<seu_nome>_schema" e coloque o nome da tabela como "salarios":
 
 <img src="https://raw.githubusercontent.com/lrtbrabo/databricks_customer_lab/main/images/lab1_04.png">
 </br></br>
