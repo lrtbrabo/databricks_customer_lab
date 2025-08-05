@@ -56,9 +56,9 @@ SELECT * FROM dbx_workshop.<seu_nome>_schema.salarios;
 
 3.Ainda no SQL Editor, execute o seguinte comando SQL:
 ``` sql
-ALTER TABLE dbx_workshop.<seu_nome>_schema.salarios ALTER COLUMN cpf SET MASK dbx_workshop.gov_rh.cls_salarios;
-ALTER TABLE dbx_workshop.<seu_nome>_schema.salarios ALTER COLUMN salario_base SET MASK dbx_workshop.gov_rh.cls_salarios;
-ALTER TABLE dbx_workshop.<seu_nome>_schema.salarios ALTER COLUMN salario_pago SET MASK dbx_workshop.gov_rh.cls_salarios;
+ALTER TABLE dbx_workshop.<seu_nome>_schema.salarios ALTER COLUMN cpf SET MASK dbx_workshop.gov_rh.cls_salario;
+ALTER TABLE dbx_workshop.<seu_nome>_schema.salarios ALTER COLUMN salario_base SET MASK dbx_workshop.gov_rh.cls_salario;
+ALTER TABLE dbx_workshop.<seu_nome>_schema.salarios ALTER COLUMN salario_pago SET MASK dbx_workshop.gov_rh.cls_salario;
 ```
 
 4.Execute o seguinte comando SQL (você vai reparar que o resultado é exatamente o mesmo e nada mudou, está correto):
