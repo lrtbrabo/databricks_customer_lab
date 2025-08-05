@@ -38,7 +38,7 @@ O objetivo desse laboratório é montar um Painel, utilizando os dados de salár
 <img src="https://raw.githubusercontent.com/lrtbrabo/databricks_customer_lab/refs/heads/main/images/lab3_14.png">
 </br></br>
 
-5.Agora vamos adicionar mais algumas outras visualizações conforme abaixo repetindo os passos 4 e 5. Caso você tenha alguma dificuldade, chame o instrutor. 
+6.Agora vamos adicionar mais algumas outras visualizações conforme abaixo repetindo os passos 4 e 5. Caso você tenha alguma dificuldade, chame o instrutor. 
 
 - Faça um counter da média do salário base
 - Faça um counter da média do salário pago
@@ -47,47 +47,47 @@ O objetivo desse laboratório é montar um Painel, utilizando os dados de salár
 
 </br></br>
 
-6.Além disso, é possível criar visualizações de "forma tradicional" utilizando a interface. No momento que você clica no botão para adicionar uma nova visualização, invés de utilizar o chat, utilize a interface a direita para criar a seguinte visualização:
+7.Além disso, é possível criar visualizações de "forma tradicional" utilizando a interface. No momento que você clica no botão para adicionar uma nova visualização, invés de utilizar o chat, utilize a interface a direita para criar a seguinte visualização:
 
 <img src="https://raw.githubusercontent.com/lrtbrabo/databricks_customer_lab/refs/heads/main/images/lab3_05.png">
 </br></br>
 
-7.Também podemos adicionar tabelas inteiras na interface, adicione uma nova visualização e coloque o texto "7. Faça uma tabela com todas as informações".
+8.Também podemos adicionar tabelas inteiras na interface, adicione uma nova visualização e coloque o texto "7. Faça uma tabela com todas as informações".
 
 <br>
 
-8.Se tudo deu certo até aqui, você deve ter algo parecido com a imagem abaixo.
+9.Se tudo deu certo até aqui, você deve ter algo parecido com a imagem abaixo.
 
 <img src="https://raw.githubusercontent.com/lrtbrabo/databricks_customer_lab/refs/heads/main/images/lab3_06.png">
 </br></br>
 
-8.Agora vamos adicionar alguns filtros. Para isso, clique no botão de adição de filtros conforme a imagem abaixo:
+10.Agora vamos adicionar alguns filtros. Para isso, clique no botão de adição de filtros conforme a imagem abaixo:
 
 <img src="https://raw.githubusercontent.com/lrtbrabo/databricks_customer_lab/refs/heads/main/images/lab3_07.png">
 </br></br>
 
-9.Faça a configuração do seu primeiro filtro conforme a imagem abaixo. Este filtro vai nos permitir fazer um filtro por um range da datas:
+11.Faça a configuração do seu primeiro filtro conforme a imagem abaixo. Este filtro vai nos permitir fazer um filtro por um range da datas:
 
 <img src="https://raw.githubusercontent.com/lrtbrabo/databricks_customer_lab/refs/heads/main/images/lab3_08.png">
 </br></br>
 
-10.Vamos adicionar mais dois filtros, um para cargo e outro para faixa salarial, adicione mais 2 filtros e os coloque com as seguintes configurações:
+12.Vamos adicionar mais dois filtros, um para cargo e outro para faixa salarial, adicione mais 2 filtros e os coloque com as seguintes configurações:
 
 <img src="https://raw.githubusercontent.com/lrtbrabo/databricks_customer_lab/refs/heads/main/images/lab3_09.png">
 <img src="https://raw.githubusercontent.com/lrtbrabo/databricks_customer_lab/refs/heads/main/images/lab3_10.png">
 </br></br>
 
-11.Se você seguiu as intruções até aqui corretamente, o seu painel atual deve se parecer com a imagem abaixo (note que o local das visualizações podem estar diferentes, isso não tem impacto para nosso cenário de testes):
+13.Se você seguiu as intruções até aqui corretamente, o seu painel atual deve se parecer com a imagem abaixo (note que o local das visualizações podem estar diferentes, isso não tem impacto para nosso cenário de testes):
 
 <img src="https://raw.githubusercontent.com/lrtbrabo/databricks_customer_lab/refs/heads/main/images/lab3_11.png">
 </br></br>
 
-12.Agora vamos começar o passo de publicação do painel, mas antes disso, vamos renomear a nossa página e nosso painel. Clique no nome do painel (ele vai estar nomeado como "New Dasboard <timestamp_de_criação>") e troque o nome para "<seu_nome>_lab_dashboard". Além disso, clique nos 3 pontinhos verticais ao lado de "Untitled page" logo abaixo do nome do dashboard e selecione "rename". Pode escolher o nome que julgar melhor. 
+14.Agora vamos começar o passo de publicação do painel, mas antes disso, vamos renomear a nossa página e nosso painel. Clique no nome do painel (ele vai estar nomeado como "New Dasboard <timestamp_de_criação>") e troque o nome para "<seu_nome>_lab_dashboard". Além disso, clique nos 3 pontinhos verticais ao lado de "Untitled page" logo abaixo do nome do dashboard e selecione "rename". Pode escolher o nome que julgar melhor. 
 
 <img src="https://raw.githubusercontent.com/lrtbrabo/databricks_customer_lab/refs/heads/main/images/lab3_12.png">
 </br></br>
 
-13.Clique em "Publish" no canto direito superior da interface do AI/BI. A tela abaixo será exibida para você. Para configurar, clique em "Don't embed credentials", selecione a flag de "Enable Genie" e selecione a opção "Link existing Genie space", nesse campo, adicione a url do ambiente Genie que você criou no laboratório anterior. Clique em "Publish" e agora seu painel está oficialmente publicado!
+15.Clique em "Publish" no canto direito superior da interface do AI/BI. A tela abaixo será exibida para você. Para configurar, clique em "Don't embed credentials", selecione a flag de "Enable Genie" e selecione a opção "Link existing Genie space", nesse campo, adicione a url do ambiente Genie que você criou no laboratório anterior. Clique em "Publish" e agora seu painel está oficialmente publicado!
 
 <img src="https://raw.githubusercontent.com/lrtbrabo/databricks_customer_lab/refs/heads/main/images/lab3_13.png">
 </br></br>
