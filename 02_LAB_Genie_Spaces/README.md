@@ -65,3 +65,9 @@ CREATE OR REPLACE FUNCTION dbx_workshop.<seu_nome>_schema.get_analyst_statistics
 
 9.Clique em "New chat" e refaça a pergunta "Quais as estatísticas dos salários de analistas?". Note que desta vez, além de executar mais rápido, ele também vai trazer um "selo de verificado".
 <img src="https://raw.githubusercontent.com/lrtbrabo/databricks_customer_lab/refs/heads/main/images/lab2_07.png">
+
+<br><br>
+
+---
+
+Parabéns, você chegou ao fim da configuração do Genie, não delete esse ambiente pois ele será utilizado no próximo laboratório!
