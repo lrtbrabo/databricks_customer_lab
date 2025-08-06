@@ -10,8 +10,8 @@
 * Adicione todos os usuários no grupo "acme_rh"
 * Criar a seguinte função:
 ```sql
-CREATE OR REPLACE FUNCTION dbx_workshop.gov_rh.cls_salario(field STRING)
-RETURN CASE WHEN is_member("acme_rh") THEN field ELSE '******' END;
+CREATE OR REPLACE FUNCTION dbx_workshop.gov_rh.cls_salario(field DOUBLE)
+RETURN CASE WHEN is_member("acme_rh") THEN field ELSE 000000 END;
 ```
 * Os participantes precisam ter direitos de criação de "schemas" e de "tabelas" debaixo deste catálogo. ("dbx_workshop"), além de poder executar Queries.
 * Disponibilizar um SQL Warehouse EndPoint (SERVERLESS) com tamanho de 2XSmall.
